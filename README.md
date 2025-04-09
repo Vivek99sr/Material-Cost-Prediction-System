@@ -9,11 +9,11 @@ This project aims to improve early-stage construction cost predictions by integr
    
 At this early architectural phase, accurate material cost prediction is difficult due to a lack of detailed component data. Traditional methods like unit-cost estimation have an error margin of 10–25%.
 
-3. Building Information Modeling (BIM)
+2. Building Information Modeling (BIM)
    
 BIM provides object-level attributes like wall area, floor perimeter, number of stairs, etc., which change dynamically with design updates. These can be used to predict costs more precisely than relying on static factors.
 
-4. Data Categorization
+3. Data Categorization
    
 Building General Properties: Total area, number of floors, building area, etc.
 
@@ -33,7 +33,7 @@ Cross-Validation: Used k-fold cross-validation to prevent overfitting due to the
    
 Tested various configurations (Case A–F) with different activation functions (ReLU, Tanh, Elu) and learning rates to identify optimal performance.
 
-7. Performance Metrics
+6. Performance Metrics
    
 Three datasets were tested:
 
